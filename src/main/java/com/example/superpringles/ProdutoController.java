@@ -1,5 +1,6 @@
 package com.example.superpringles;
 
+import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -22,18 +23,19 @@ public class ProdutoController {
     // Buscar por id
     @GetMapping("/{id}")
     public Produto buscarPorId(@PathVariable Long id) {
-        return produtoRepositorio.findById(id).orElse(null);
+        return produtoRepositorio.findById(id)
+                .orElseThrow(() -> new RecursoNaoEncontradoException("Produto nao encontrado"));
     }
 
     // Adicionar produto
     @PostMapping
-    public Produto adicionar(@RequestBody Produto produto) {
+    public Produto adicionar(@Valid @RequestBody Produto produto) {
         return produtoRepositorio.save(produto);
     }
 
     //Atualizar produto
     @PutMapping("/{id}")
-    public Produto atualizar(@PathVariable Long id, @RequestBody Produto produtoAtualizado) {
+    public Produto atualizar(@PathVariable Long id, @Valid @RequestBody Produto produtoAtualizado) {
         produtoAtualizado.setId(id);
         return produtoRepositorio.save(produtoAtualizado);
     }
