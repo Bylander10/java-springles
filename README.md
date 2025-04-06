@@ -10,3 +10,7 @@ This repo is for now a RESTful API created using Spring and some other dependenc
 ### **Now may I ask you, to watch me cook**
 
 <img src="https://media.tenor.com/GOxmNOZ5qRsAAAAd/rain-world-slugcat.gif" alt="Rain World Slugcat" width="300">
+
+
+### timeskip arc
+Its been past 30 days already, and honestly, I'm pretty satisfied in how far I've progressed, can't say I dominated the language, but I could take Java job offers at this point.
