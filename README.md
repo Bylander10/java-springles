@@ -1,4 +1,4 @@
-# I WILL LEARN JAVA WITH SPRING IN 30 DAYS YALL SEE
+# I WILL LEARN JAVA WITH SPRING IN 90 DAYS YALL SEE
 
 ### Starting point
 
@@ -12,5 +12,8 @@ This repo is for now a RESTful API created using Spring and some other dependenc
 <img src="https://media.tenor.com/GOxmNOZ5qRsAAAAd/rain-world-slugcat.gif" alt="Rain World Slugcat" width="300">
 
 
-### timeskip arc
-Its been past 30 days already, and honestly, I'm pretty satisfied in how far I've progressed, can't say I dominated the language, but I could take Java job offers at this point.
+### 30 days mark
+Its been past 30 days already, and honestly, I'm pretty satisfied in how far I've progressed, I could take Java job offers already at this point.
+
+We've dealt with error handling, security measures, validation, database accessibility, etc.
+It's a pretty basic API still but it's taking some form.
